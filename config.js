@@ -1,7 +1,7 @@
 // ══ CONFIG LE Z ══
 window.ZAIRE = {
-  SUPABASE_URL:  "",
-  SUPABASE_ANON: "",
+  SUPABASE_URL:  "https://uauiqbjuwmzqunlfierw.supabase.co",
+  SUPABASE_ANON: "sb_publishable_Xug2A2R3Nrrhi_9CnT6d3w_6Oh4U860",
   SLUG: "le-z",
   NOM: "Le Z",
   SOUS_TITRE: "Restaurant & Lounge",
