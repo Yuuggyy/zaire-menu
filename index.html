@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title>Le Z — Restaurant & Lounge · Menu</title>
-<meta name="theme-color" content="#0A3A06">
+<meta name="theme-color" content="#0B0B0B">
 <link rel="icon" href="icon-192.png">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,700;0,9..144,900;1,9..144,500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -22,7 +22,7 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
   animation:grain .9s steps(3) infinite}
 @keyframes grain{0%{transform:translate(0,0)}33%{transform:translate(-3%,2%)}66%{transform:translate(2%,-2%)}100%{transform:translate(0,0)}}
 #fond{position:fixed;inset:0;z-index:0;pointer-events:none;background:
-  radial-gradient(circle at 20% 15%,rgba(24,120,0,.35),transparent 45%),
+  radial-gradient(circle at 20% 15%,rgba(201,146,26,.35),transparent 45%),
   radial-gradient(circle at 85% 85%,rgba(201,146,26,.12),transparent 40%),var(--vert3)}
 #wax{position:fixed;z-index:1;pointer-events:none;width:340px;height:340px;right:-120px;top:-100px;opacity:.10;animation:tourne 90s linear infinite}
 #wax2{position:fixed;z-index:1;pointer-events:none;width:300px;height:300px;left:-130px;bottom:-110px;opacity:.09;animation:tourne 120s linear infinite reverse}
@@ -34,12 +34,12 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
   linear-gradient(45deg,var(--ocre) 25%,transparent 25%);
   background-size:12px 12px;background-color:var(--vert)}
 
-.header{position:fixed;top:0;left:0;width:100%;padding:14px 20px;z-index:100;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(180deg,rgba(7,41,10,.96),rgba(7,41,10,0));pointer-events:none}
+.header{position:fixed;top:0;left:0;width:100%;padding:14px 20px;z-index:100;display:flex;justify-content:space-between;align-items:center;background:linear-gradient(180deg,rgba(5,5,5,.96),rgba(5,5,5,0));pointer-events:none}
 .logo{display:flex;align-items:center;gap:10px;font-family:'Fraunces',serif;font-size:19px;font-weight:900;color:var(--ocre-clair);letter-spacing:.14em;text-transform:uppercase}
 .logo img{width:34px;height:34px;border-radius:50%}
 .logo span{display:block;font-family:'Outfit',sans-serif;font-weight:400;font-size:9px;letter-spacing:.3em;color:var(--creme2);opacity:.8;margin-top:2px}
 .nav-dots{display:flex;gap:6px;pointer-events:auto;flex-wrap:wrap;max-width:200px;justify-content:flex-end}
-.nav-dot{width:9px;height:9px;background:rgba(216,144,0,.25);border:1px solid rgba(216,144,0,.5);cursor:pointer;transition:all .3s;transform:rotate(45deg)}
+.nav-dot{width:9px;height:9px;background:rgba(201,146,26,.25);border:1px solid rgba(201,146,26,.5);cursor:pointer;transition:all .3s;transform:rotate(45deg)}
 .nav-dot.active{background:var(--orange);border-color:var(--orange);box-shadow:0 0 10px var(--orange);transform:rotate(45deg) scale(1.3)}
 
 #book-container{position:relative;z-index:10;margin-top:25px;max-width:400px;width:100%;display:flex;justify-content:center}
@@ -47,12 +47,12 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
 *::-webkit-scrollbar{display:none!important}*{scrollbar-width:none!important}
 
 /* Couverture */
-.page-cover{background:var(--vert);display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center;padding:30px 24px 24px;position:relative;width:100%;height:100%;border:1px solid rgba(216,144,0,.35);overflow:hidden}
+.page-cover{background:var(--vert);display:flex;flex-direction:column;align-items:center;justify-content:space-between;text-align:center;padding:30px 24px 24px;position:relative;width:100%;height:100%;border:1px solid rgba(201,146,26,.35);overflow:hidden}
 .page-cover::before{content:'';position:absolute;inset:12px;border:2px solid var(--ocre);opacity:.7;pointer-events:none}
 .page-cover::after{content:'';position:absolute;inset:17px;border:1px dashed var(--orange);opacity:.5;pointer-events:none}
 .cover-content{display:flex;flex-direction:column;align-items:center;justify-content:center;flex:1;z-index:2;width:100%}
 .cover-badge{font-size:10px;letter-spacing:.4em;text-transform:uppercase;color:var(--ocre-clair);font-weight:600;margin-bottom:12px}
-.cover-logo{width:190px;max-width:62%;height:auto;border-radius:50%;box-shadow:0 0 0 3px rgba(216,144,0,.25),0 10px 30px rgba(0,0,0,.4);animation:respire 5s ease-in-out infinite}
+.cover-logo{width:190px;max-width:62%;height:auto;border-radius:50%;box-shadow:0 0 0 3px rgba(201,146,26,.25),0 10px 30px rgba(0,0,0,.4);animation:respire 5s ease-in-out infinite}
 @keyframes respire{0%,100%{transform:scale(1)}50%{transform:scale(1.025)}}
 .page-cover h1{font-family:'Fraunces',serif;font-size:38px;font-weight:900;color:var(--creme);letter-spacing:.2em;margin:18px 0 2px;text-indent:.2em}
 .page-cover .sous{font-family:'Fraunces',serif;font-style:italic;font-size:15px;color:var(--ocre-clair);letter-spacing:.06em}
@@ -63,11 +63,11 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
 .cover-info b{color:var(--ocre-clair);font-weight:600}
 .cover-footer{z-index:2;font-size:10px;letter-spacing:.14em;color:rgba(246,236,210,.5);margin-top:10px}
 .cover-footer a{color:var(--ocre-clair);text-decoration:none;font-weight:600}
-.shimmer{position:absolute;top:0;left:0;width:55%;height:100%;background:linear-gradient(90deg,transparent,rgba(240,184,60,.09),transparent);animation:shimmer 4s infinite;pointer-events:none}
+.shimmer{position:absolute;top:0;left:0;width:55%;height:100%;background:linear-gradient(90deg,transparent,rgba(235,181,46,.09),transparent);animation:shimmer 4s infinite;pointer-events:none}
 @keyframes shimmer{0%{left:-100%}100%{left:200%}}
 
 /* Pages menu : papier crème */
-.page-menu{background:linear-gradient(165deg,#FBF3DC 0%,var(--creme) 55%,#EFE2BF 100%);color:var(--encre);padding:22px 20px 14px;height:100%;overflow-y:auto;position:relative;display:flex;flex-direction:column;border-right:1px solid rgba(10,58,6,.15)}
+.page-menu{background:linear-gradient(165deg,#FBF3DC 0%,var(--creme) 55%,#EFE2BF 100%);color:var(--encre);padding:22px 20px 14px;height:100%;overflow-y:auto;position:relative;display:flex;flex-direction:column;border-right:1px solid rgba(11,11,11,.15)}
 .page-menu::before{content:'';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:70%;aspect-ratio:1;background:url('logo-transparent.png') center/contain no-repeat;opacity:.06;pointer-events:none;filter:saturate(.8)}
 .menu-bande{position:absolute;top:0;left:0;right:0;height:8px;background:
   linear-gradient(135deg,var(--orange) 25%,transparent 25%) -4px 0,linear-gradient(225deg,var(--orange) 25%,transparent 25%) -4px 0,
@@ -77,19 +77,19 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
 .page-menu h2{font-family:'Fraunces',serif;font-size:23px;font-weight:900;color:var(--vert);margin:3px 0 6px;letter-spacing:.01em}
 .category-line{width:56px;height:3px;background:linear-gradient(90deg,var(--orange),var(--ocre))}
 .menu-items-list{flex:1;position:relative;z-index:1}
-.menu-item{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:11px;padding-bottom:9px;border-bottom:1px dotted rgba(10,58,6,.3)}
+.menu-item{display:flex;justify-content:space-between;align-items:flex-start;margin-bottom:11px;padding-bottom:9px;border-bottom:1px dotted rgba(11,11,11,.3)}
 .menu-item-info h3{font-family:'Fraunces',serif;font-size:14px;font-weight:700;color:var(--encre);margin-bottom:2px}
 .menu-item-info p{font-size:10.5px;color:var(--muet);max-width:190px;line-height:1.35}
 .menu-item-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px;margin-left:8px}
 .menu-item-price{font-family:'Fraunces',serif;font-size:16px;color:var(--brique);font-weight:900;white-space:nowrap}
 .add-btn{width:28px;height:28px;border-radius:50%;background:var(--vert);color:var(--creme);border:none;font-size:18px;font-weight:700;cursor:pointer;display:flex;align-items:center;justify-content:center;line-height:1;transition:all .2s;touch-action:manipulation}
 .add-btn:hover{background:var(--orange)}.add-btn:active{transform:scale(.9)}
-.page-footer{margin-top:auto;padding-top:7px;border-top:1px solid rgba(10,58,6,.2);font-size:9px;color:var(--muet);display:flex;justify-content:space-between;align-items:center;letter-spacing:.06em;position:relative;z-index:1}
+.page-footer{margin-top:auto;padding-top:7px;border-top:1px solid rgba(11,11,11,.2);font-size:9px;color:var(--muet);display:flex;justify-content:space-between;align-items:center;letter-spacing:.06em;position:relative;z-index:1}
 .page-footer a{color:var(--brique);text-decoration:none;font-weight:600}
 .menu-vide{padding:30px 10px;text-align:center;color:var(--muet);font-size:12px}
 
 /* Dernière page */
-.page-fin{background:var(--vert);height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:26px;position:relative;border:1px solid rgba(216,144,0,.35)}
+.page-fin{background:var(--vert);height:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:26px;position:relative;border:1px solid rgba(201,146,26,.35)}
 .page-fin::before{content:'';position:absolute;inset:12px;border:2px solid var(--ocre);opacity:.6;pointer-events:none}
 .page-fin img{width:90px;border-radius:50%;margin-bottom:14px}
 .page-fin h3{font-family:'Fraunces',serif;font-size:22px;color:var(--ocre-clair);margin-bottom:6px}
@@ -98,7 +98,7 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
 .page-fin .btn-wa{display:inline-block;margin-top:10px;color:var(--ocre-clair);font-size:12px;text-decoration:none;border-bottom:1px solid var(--ocre)}
 
 /* Contrôles */
-.page-indicator{position:fixed;bottom:74px;left:50%;transform:translateX(-50%);z-index:100;font-size:11px;color:var(--ocre-clair);letter-spacing:.2em;background:rgba(7,41,10,.7);padding:5px 16px;border-radius:20px;border:1px solid rgba(216,144,0,.3)}
+.page-indicator{position:fixed;bottom:74px;left:50%;transform:translateX(-50%);z-index:100;font-size:11px;color:var(--ocre-clair);letter-spacing:.2em;background:rgba(5,5,5,.7);padding:5px 16px;border-radius:20px;border:1px solid rgba(201,146,26,.3)}
 .controls{position:fixed;bottom:18px;left:50%;transform:translateX(-50%);z-index:100;display:none;gap:14px;align-items:center}
 .control-btn{width:46px;height:46px;border-radius:50%;background:var(--vert2);border:1.5px solid var(--ocre);color:var(--ocre-clair);font-size:24px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s}
 .control-btn:hover:not(:disabled){background:var(--orange);border-color:var(--orange);color:#fff}.control-btn:disabled{opacity:.3;cursor:default}
@@ -109,23 +109,23 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
 .cart-fab{position:fixed;bottom:20px;right:16px;width:54px;height:54px;border-radius:50%;background:var(--orange);color:#fff;border:2px solid var(--ocre-clair);font-size:23px;cursor:pointer;z-index:150;display:none;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.4)}
 .cart-badge{position:absolute;top:-4px;right:-4px;background:var(--creme);color:var(--vert);border-radius:50%;min-width:21px;height:21px;font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;padding:0 4px}
 .cart-badge:empty{display:none}
-.cart-modal{position:fixed;inset:0;background:rgba(3,20,5,.85);backdrop-filter:blur(4px);z-index:300;display:none;align-items:flex-end;justify-content:center}
+.cart-modal{position:fixed;inset:0;background:rgba(0,0,0,.85);backdrop-filter:blur(4px);z-index:300;display:none;align-items:flex-end;justify-content:center}
 .cart-modal.open{display:flex}
 .cart-content{background:var(--creme);color:var(--encre);width:100%;max-width:420px;max-height:86vh;border-radius:20px 20px 0 0;overflow-y:auto;padding:22px;animation:slideUp .3s ease;border-top:5px solid var(--orange)}
 @keyframes slideUp{from{transform:translateY(100%)}to{transform:translateY(0)}}
 .cart-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:14px;padding-bottom:10px;border-bottom:2px solid var(--vert)}
 .cart-header h2{font-family:'Fraunces',serif;font-size:22px;color:var(--vert)}
-.cart-close{width:34px;height:34px;border-radius:50%;background:rgba(10,58,6,.1);border:none;font-size:20px;cursor:pointer;color:var(--vert)}
+.cart-close{width:34px;height:34px;border-radius:50%;background:rgba(11,11,11,.1);border:none;font-size:20px;cursor:pointer;color:var(--vert)}
 .cart-empty{text-align:center;padding:28px 10px;color:var(--muet);font-size:13px;line-height:1.6}
-.cart-item{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px dotted rgba(10,58,6,.3)}
+.cart-item{display:flex;justify-content:space-between;align-items:center;padding:11px 0;border-bottom:1px dotted rgba(11,11,11,.3)}
 .cart-item-info{flex:1}.cart-item-info h4{font-family:'Fraunces',serif;font-size:14px}.cart-item-info span{font-size:12px;color:var(--brique);font-weight:700}
 .cart-qty{display:flex;align-items:center;gap:8px;margin:0 8px}
 .cart-qty button{width:28px;height:28px;border-radius:50%;background:var(--vert);color:var(--creme);border:none;font-size:15px;font-weight:700;cursor:pointer}
 .cart-qty span{font-size:14px;font-weight:600;min-width:18px;text-align:center}
 .cart-remove{background:none;border:none;color:var(--brique);font-size:20px;cursor:pointer}
-.cart-total{display:flex;justify-content:space-between;align-items:center;margin:14px 0;padding:12px 14px;background:rgba(10,58,6,.08);border-left:4px solid var(--orange)}
+.cart-total{display:flex;justify-content:space-between;align-items:center;margin:14px 0;padding:12px 14px;background:rgba(11,11,11,.08);border-left:4px solid var(--orange)}
 .cart-total span{font-family:'Fraunces',serif;font-size:17px;font-weight:700;color:var(--vert)}
-.cart-input{width:100%;padding:12px;border:1.5px solid rgba(10,58,6,.3);border-radius:8px;font-size:13px;margin-bottom:10px;font-family:'Outfit',sans-serif;background:#FFFBEC;color:var(--encre)}
+.cart-input{width:100%;padding:12px;border:1.5px solid rgba(11,11,11,.3);border-radius:8px;font-size:13px;margin-bottom:10px;font-family:'Outfit',sans-serif;background:#FFFBEC;color:var(--encre)}
 .cart-input:focus{outline:none;border-color:var(--orange)}
 .cart-submit{width:100%;padding:14px;background:var(--vert);color:var(--creme);border:none;border-radius:10px;font-size:15px;font-weight:600;cursor:pointer;letter-spacing:.04em;font-family:'Outfit',sans-serif}
 .cart-submit:hover:not(:disabled){background:var(--orange)}.cart-submit:disabled{opacity:.4;cursor:not-allowed}
@@ -141,9 +141,9 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
 <svg id="wax2" viewBox="0 0 100 100"><use href="#roue"/></svg>
 <svg width="0" height="0" style="position:absolute"><defs>
 <g id="roue" fill="none" stroke-width="5">
-  <circle cx="50" cy="50" r="42" stroke="#D89000" stroke-dasharray="10 6"/>
-  <circle cx="50" cy="50" r="30" stroke="#F04800" stroke-dasharray="4 8"/>
-  <path d="M50 8v84M8 50h84M20 20l60 60M80 20 20 80" stroke="#187800" stroke-width="3"/>
+  <circle cx="50" cy="50" r="42" stroke="#C9921A" stroke-dasharray="10 6"/>
+  <circle cx="50" cy="50" r="30" stroke="#C9921A" stroke-dasharray="4 8"/>
+  <path d="M50 8v84M8 50h84M20 20l60 60M80 20 20 80" stroke="#8A6410" stroke-width="3"/>
 </g></defs></svg>
 
 <div class="header">
@@ -161,7 +161,7 @@ body::before{content:"";position:fixed;inset:0;z-index:250;pointer-events:none;o
 </div>
 <div class="swipe-hint" id="swipeHint" style="display:none">Glissez pour tourner la page ›</div>
 
-<button class="cart-fab" id="cartFab" aria-label="Panier">&#128722;<div class="cart-badge" id="cartBadge"></div></button>
+<button class="cart-fab" id="cartFab" aria-label="Panier">&#C9921A;<div class="cart-badge" id="cartBadge"></div></button>
 <div class="cart-modal" id="cartModal"><div class="cart-content">
   <div class="cart-header"><h2>Votre commande</h2><button class="cart-close" id="cartClose">&times;</button></div>
   <div id="cartItems"></div>
